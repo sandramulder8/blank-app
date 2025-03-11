@@ -1,10 +1,14 @@
 import streamlit as st
 
 def quiz():
-st.title("Which Diet is Right for You?")
-
-```
-score = {"Keto": 0, "Mediterranean": 0, "Intermittent Fasting": 0, "WW": 0, "DASH": 0, "Low-Carb": 0, "Atkins": 0, "Volumetrics": 0, "Fast800": 0, "TLC": 0, "Mayo Clinic": 0, "Flexitarian": 0, "Sirtfood": 0, "South Beach": 0, "HMR": 0, "Dukan": 0, "PSMF": 0, "ADF": 0, "Military": 0, "CICO": 0}
+    st.title("Which Diet is Right for You?")
+    
+    score = {
+        "mediterranean": 0, "intermittent_fasting": 0, "keto": 0, "ww": 0, "dash": 0, 
+        "low_carb": 0, "atkins": 0, "volumetrics": 0, "fast800": 0, "tlc": 0, 
+        "mayo": 0, "flexitarian": 0, "sirtfood": 0, "south_beach": 0, "hmr": 0, 
+        "dukan": 0, "psmf": 0, "adf": 0, "military": 0, "cico": 0
+    }
 
 q1 = st.radio("Do you prefer structured meal plans or flexibility?", 
               ("Structured", "Flexible"))
