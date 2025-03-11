@@ -4,10 +4,7 @@ def quiz():
 st.title("Which Diet is Right for You?")
 
 ```
-score = {"Keto": 0, "Mediterranean": 0, "Intermittent Fasting": 0, 
-"WW": 0, "DASH": 0, "Low-Carb": 0, "Atkins": 0, "Volumetrics": 0,
-"Fast800": 0, "TLC": 0, "Mayo Clinic": 0, "Flexitarian": 0, "Sirtfood": 0,
-"South Beach": 0, "HMR": 0, "Dukan": 0, "PSMF": 0, "ADF": 0, "Military": 0, "CICO": 0}
+score = {"Keto": 0, "Mediterranean": 0, "Intermittent Fasting": 0, "WW": 0, "DASH": 0, "Low-Carb": 0, "Atkins": 0, "Volumetrics": 0, "Fast800": 0, "TLC": 0, "Mayo Clinic": 0, "Flexitarian": 0, "Sirtfood": 0, "South Beach": 0, "HMR": 0, "Dukan": 0, "PSMF": 0, "ADF": 0, "Military": 0, "CICO": 0}
 
 q1 = st.radio("Do you prefer structured meal plans or flexibility?", 
               ("Structured", "Flexible"))
