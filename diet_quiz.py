@@ -50,7 +50,7 @@ def quiz():
         score["CICO"] += 1
         score["WW"] += 1
         score["Intermittent Fasting"] += 1
-else:
+   else:
     score["Keto"] += 1
     score["Atkins"] += 1
     score["Dukan"] += 1
