@@ -50,10 +50,10 @@ def quiz():
         score["CICO"] += 1
         score["WW"] += 1
         score["Intermittent Fasting"] += 1
-   else:
-    score["Keto"] += 1
-    score["Atkins"] += 1
-    score["Dukan"] += 1
+    else:
+        score["Keto"] += 1
+        score["Atkins"] += 1
+        score["Dukan"] += 1
 
     q5 = st.radio("5. Do you want an easy-to-follow diet or does it matter?", 
                   ("Easy-to-follow", "Does not matter"))
