@@ -64,6 +64,7 @@ ebook.add_paragraph("[List all scientific references and studies clearly cited t
 
 # Save the fully structured and detailed document
 final_complete_doc_path = "/mnt/data/Complete_Top_20_Diets_Ebook_Final.docx"
-ebook.save(final_complete_doc_path)
+ebook.save("final_complete_diet_ebook.docx")
+
 
 final_complete_doc_path
